@@ -1,0 +1,514 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        body {
+            text-align: center;
+            background-image: url('background.png');
+        }
+        h1 {
+            color: #b48608;
+            font-family: 'Droid serif', serif;
+            font-size: 44px;
+            font-weight: 400;
+            font-style: italic;
+            line-height: 44px;
+            margin: 10px 0 30px;
+            text-align: center;
+            padding-right: 110px;
+            padding-left: 20px;
+        }
+
+        h2 {
+            background: #79bbff;
+            width: 70px;
+            height: 40px;
+            border-radius: 35px;
+            margin: 0px 0px;
+            padding: 5px;
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: 900;
+            text-align: center;
+            line-height: 100%;
+            font-family: 'Open sans', sans-serif;
+        }
+
+        h1, h2 {
+            display: inline;
+        }
+
+        span {
+            background: #fe921f;
+            color: #ffffff;
+            display: inline-block;
+            font-family: 'Lato', sans-serif;
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 12px;
+            letter-spacing: 1px;
+            padding: 10px 15px 8px;
+            text-transform: uppercase;
+            margin: 0 20px 10px 0;
+            border: 3px solid #fe921f;
+        }
+
+
+        table {
+            margin: auto;
+        }
+
+        div {
+            height: 15px;
+            width: 40px;
+            margin: 2px;
+            border-radius: 50%;
+            background-color: firebrick;
+            border: 3px solid firebrick;
+        }
+
+        img {
+            height: 20px;
+            width: 25px;
+        }
+
+        divBorder {
+            border: 2px solid yellow;
+        }
+
+        #hits {
+        }
+    </style>
+
+
+
+</head>
+<body dir="rtl" value="Click" onclick="checkClick()">
+    <h1>הכה את החפרפרת</h1>
+    <h2>רמה קשה</h2>
+    <br /><br /><br />
+    <span id="hits">פגיעות: 0</span>
+    <span id="misses">פסילות: 0</span>
+
+
+    <table>
+        <tr>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+            <td>
+                <div></div>
+            </td>
+        </tr>
+
+    </table>
+</body>
+
+
+</html>
+
+<script>
+    var hitSuccess;
+    var hitsCounter = 0, missesCounter = 0;
+    var divs = document.getElementsByTagName("div");
+    var moleImage = document.createElement("img");
+    moleImage.src = "cartoon_mole.png";
+
+    var hits = document.getElementById("hits");
+    var misses = document.getElementById("misses");
+
+    var hideMoleStartedTime = randomIntFromInterval(1000, 1500);
+    var hideMoleLengthTime = randomIntFromInterval(250, 750)
+    var totalTime = hideMoleStartedTime + hideMoleLengthTime;
+
+    moleGame = setInterval(function () {
+        resetDivs();
+
+        hitSuccess = false;
+        if (missesCounter >= 3) {
+            clearInterval(moleGame);
+            alert("הפסדת! נסה שוב");
+            window.location = 'MainPage.html';
+        }
+        var cellIndex = Math.floor((Math.random() * 99));
+
+        showMole(cellIndex);
+        moleImage.onclick = function () {
+            addHit(cellIndex);
+            divs[cellIndex].style.border = "3px solid yellow";
+            hits.style.backgroundColor = "yellow"
+            hits.style.color = "black"
+        }
+
+        setTimeout(function () { hideMole(cellIndex) }, hideMoleStartedTime);
+        hideMoleStartedTime = randomIntFromInterval(1000, 1500);
+        hideMoleLengthTime = randomIntFromInterval(250, 750)
+        totalTime = hideMoleStartedTime + hideMoleLengthTime;
+    }, totalTime);
+
+
+    function showMole(index) {
+        divs[index].appendChild(moleImage);
+    }
+
+    function hideMole(index) {
+        divs[index].removeChild(moleImage);
+    }
+
+    function addHit(index) {
+        hitSuccess = true;
+        hitsCounter++;
+        hits.innerHTML = "פגיעות: " + hitsCounter;
+        for (i = 0; i < divs.length; i++)
+            divs[i].style.pointerEvents = "none";
+    }
+
+    function addMiss() {
+        if (missesCounter == 3) {
+            clearInterval(moleGame);
+            alert("הפסדת! נסה שוב");
+            window.location = 'MainPage.html';
+        }
+        else {
+            misses.style.backgroundColor = "black"
+            missesCounter++;
+            misses.innerHTML = "פסילות: " + missesCounter;
+        }
+    }
+
+    function randomIntFromInterval(min, max) {
+        return Math.floor(Math.random() * (max - min + 1) + min);
+    }
+
+    function resetDivs() {
+        hits.style.backgroundColor = "#fe921f";
+        misses.style.backgroundColor = "#fe921f";
+        hits.style.color = "white"
+        for (i = 0; i < divs.length; i++) {
+            divs[i].style.border = "3px solid firebrick";
+            divs[i].style.pointerEvents = "auto";
+        }
+    }
+
+    function checkClick() {
+        if (!hitSuccess) {
+            addMiss();
+        }
+    }
+
+</script>
