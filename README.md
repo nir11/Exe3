@@ -1,7 +1,10 @@
 # Whack-A-Mole Game
 
 Try to hit as many moles as you can.
-<br/>                                                                                      
+<br/>                           
+Run and play over here:
+<br/>                           
+https://codepen.io/nir13/project/full/ANNMqO/
                                                     
 <div>
     <h3>Main page</h3>
