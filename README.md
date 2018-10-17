@@ -3,14 +3,19 @@
 Try to hit as much moles as you can.
 <br/>                                                                                      
                                                     
-<div style="width:100%;">
- <div style="position:relative; float:left" >
+    <div>
         <h3>Main page</h3>
         <img src="Exe3/Screenshots/MainPage.JPG" width="300">
     </div>
-    <div style="position:relative; float:right">
+    <div>
         <h3>Level 1</h3>
-        <img src="Exe3/Screenshots/Level1.JPG"  width="300"/>
+        <img src="Exe3/Screenshots/Level1.JPG" width="300" />
     </div>
-
-</div>
+    <div>
+        <h3>Level 2</h3>
+        <img src="Exe3/Screenshots/Leve2.JPG" width="300" />
+    </div>
+    <div>
+        <h3>Level 3</h3>
+        <img src="Exe3/Screenshots/Level3.JPG" width="300" />
+    </div>
