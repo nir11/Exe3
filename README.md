@@ -1,6 +1,6 @@
 # Whack-A-Mole Game
 
-Try to hit as much moles as you can.
+Try to hit as many moles as you can.
 <br/>                                                                                      
                                                     
 <div>
